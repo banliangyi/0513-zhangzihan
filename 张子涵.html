@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张子涵 - 个人简历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .resume {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+            margin: 25px 0 15px;
+            font-size: 20px;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        h3 {
+            color: #2c3e50;
+            margin: 15px 0 10px;
+            font-size: 16px;
+        }
+        p, li {
+            color: #34495e;
+            font-size: 15px;
+        }
+        .base-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .base-info span {
+            font-size: 15px;
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            font-size: 15px;
+        }
+        th {
+            background-color: #f8f9fa;
+            color: #2c3e50;
+        }
+        .project-item {
+            margin-bottom: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <h1>个人简历</h1>
+
+        <h2>一、基本信息</h2>
+        <div class="base-info">
+            <span>姓名：张子涵</span>
+            <span>性别：X</span>
+            <span>年龄：XX</span>
+            <span>电话：138XXXX8888</span>
+            <span>邮箱：xxx@163.com</span>
+        </div>
+        <p>求职意向：全栈开发工程师 / AI应用开发工程师 / 前端开发工程师</p>
+
+        <h2>二、教育背景</h2>
+        <p>大连东软信息学院 | 计算机科学与技术专业 | 本科 | 2021.09 - 2025.06</p>
+        <p>核心课程：数据结构、Java/Python/C语言、数据库、计算机网络、OpenHarmony开发、互联网应用开发技术、高级网页设计、Web架构</p>
+        <p>GPA：3.6/4.0，专业排名前15%</p>
+        <p>荣誉：校级二等奖学金（2022-2023）、三等奖学金（2023-2024）、优秀学生干部、创新创业先进个人</p>
+
+        <h2>三、专业技能</h2>
+        <table>
+            <tr>
+                <th>分类</th>
+                <th>技术栈</th>
+            </tr>
+            <tr>
+                <td>前端</td>
+                <td>HTML5/CSS3/JavaScript/TypeScript/ES6、Vue3 + Pinia + ElementPlus/Vant、React、Electron、Uniapp（小程序开发）、Nuxt（Vue全栈框架）、数据大屏、数据可视化（ECharts/DataV/G6/D3.js/Three.js/Mermaid/SVG/Canvas）、Mock（json-server）</td>
+            </tr>
+            <tr>
+                <td>AI与知识库</td>
+                <td>AI工具：CodeBuddy、Trae、Claude Code、Skill、MCP；LangChain、RAG知识库开发、AI原型设计</td>
+            </tr>
+            <tr>
+                <td>后端框架</td>
+                <td>Spring Boot、MyBatis/MyBatis-Plus、Koa2、Express、REST API</td>
+            </tr>
+            <tr>
+                <td>数据库与工具</td>
+                <td>MySQL、Redis、MySQL Workbench</td>
+            </tr>
+            <tr>
+                <td>移动端</td>
+                <td>OpenHarmony（鸿蒙，ArkTS）、Android（Java）</td>
+            </tr>
+            <tr>
+                <td>工程化与版本控制</td>
+                <td>Git（GitHub/Gitee）、Docker、错误调试、全栈部署</td>
+            </tr>
+        </table>
+        <p>软实力：极强的学习能力与新技术接受能力，能够快速上手LangChain、知识库等前沿技术；日常通过AI工具辅助开发，关注AI工程化与可视化最佳实践。</p>
+
+        <h2>四、项目经历（精选4项）</h2>
+        <div class="project-item">
+            <h3>1. 智能知识库问答助手（AI + 全栈）</h3>
+            <p>2024.09 - 至今 | 技术栈：LangChain + Koa2 + MySQL + Redis + Vue3 + G6/Three.js</p>
+            <ul>
+                <li>基于LangChain搭建RAG知识库，支持文档上传、切片、向量检索，集成大模型实现问答。</li>
+                <li>后端Koa2提供API，Redis缓存高频问答；前端Vue3实现对话界面。</li>
+                <li>可视化亮点：使用G6绘制知识图谱，Three.js构建3D节点关系图，直观展示文档关联。</li>
+                <li>使用json-server模拟早期API原型，加速前后端联调。</li>
+            </ul>
+        </div>
+        <div class="project-item">
+            <h3>2. 智慧校园数据大屏系统（全栈 + 数据大屏 + 数据可视化）</h3>
+            <p>2024.07 - 2024.10 | 技术栈：Spring Boot + MyBatis-Plus + MySQL + Redis + Vue3 + ECharts/DataV/G6/D3</p>
+            <ul>
+                <li>后端Spring Boot + MyBatis-Plus开发数据API，Redis缓存热点数据。</li>
+                <li>搭建数据大屏，集成多种可视化库：ECharts（实时人流量折线图）、DataV（边框/数字翻牌器）、G6（设备拓扑图）、D3.js（自定义关系网络图）。</li>
+                <li>使用MySQL Workbench进行数据库设计；json-server模拟设备数据源进行前期开发。</li>
+            </ul>
+        </div>
+        <div class="project-item">
+            <h3>3. 京东电商网站仿制 + 小程序版（前端 + 小程序）</h3>
+            <p>2024.02 - 2024.04 | 技术栈：Vue3 + Pinia + TypeScript + ElementPlus/Vant + Uniapp + Nuxt + Canvas/SVG</p>
+            <ul>
+                <li>仿制京东PC/移动端网页，使用Uniapp跨端开发微信小程序，复用核心代码。</li>
+                <li>数据可视化：Canvas绘制商品热度雷达图，SVG实现优惠券进度条动画。</li>
+                <li>使用json-server搭建mock API，独立完成前后端数据模拟。</li>
+            </ul>
+        </div>
+        <div class="project-item">
+            <h3>4. OpenHarmony智能备忘录（鸿蒙 + ArkTS）</h3>
+            <p>2024.03 - 2024.06 | 技术栈：OpenHarmony + ArkTS + Canvas + DevEco Studio</p>
+            <ul>
+                <li>采用ArkTS声明式开发范式构建鸿蒙原生应用，实现备忘录增删改查、分类标签及定时提醒。</li>
+                <li>集成Canvas手写涂鸦，用户可为笔记添加手绘示意图。</li>
+                <li>获得课程优秀设计奖，展示了鸿蒙开发与图形绘制能力。</li>
+            </ul>
+        </div>
+        <p>（注：可根据岗位选择3个重点项目展示，此处列出4个以体现技术广度）</p>
+
+        <h2>五、其他实践与成果</h2>
+        <ul>
+            <li>班级学习委员：组织编程小组，班级专业通过率提升至98%。</li>
+            <li>SOVO大学生创业中心成员：参与项目孵化，组织AI编程讲座。</li>
+            <li>个人开源：GitHub上维护“AI-tools”仓库，收录LangChain代码片段、json-server配置模板及MCP示例。</li>
+            <li>持续学习：每周跟进AI工程化/前端可视化动态，关注数据可视化最佳实践。</li>
+        </ul>
+
+        <h2>六、自我评价</h2>
+        <p>大连东软信息学院科班出身，具备扎实的全栈开发能力与强烈的技术热情。前端方面熟练使用Vue/React/Uniapp，擅长数据大屏及数据可视化（ECharts/DataV/G6/D3/Three.js/Mermaid/SVG/Canvas）的集成应用。AI方向能基于LangChain快速搭建知识库，并利用CodeBuddy等AI工具提升开发效率。后端掌握Spring Boot + MyBatis + Redis，熟悉Koa2及Mock方案（json-server）。对新事物接受能力极强，乐于探索前沿技术并落地。善于团队协作与错误调试，致力于成为懂业务、能落地的全栈+AI工程师。</p>
+
+        <h2>七、附件/作品链接</h2>
+        <p>GitHub：github.com/xxx（包含知识库问答、校园大屏、电商小程序等源码，以及json-server mock示例）</p>
+        <p>鸿蒙备忘录演示视频 / 数据大屏在线Demo（如有）</p>
+
+        <div class="footer">© 2025 张子涵 - 个人简历</div>
+    </div>
+</body>
+</html>
